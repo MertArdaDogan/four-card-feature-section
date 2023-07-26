@@ -81,7 +81,7 @@ img{
 }
 @media all and (max-width: 1065px) {
   .container{
-    
+    height: 1250px; 
   }
   .center{
     transform: initial;
@@ -93,6 +93,11 @@ img{
   }
   h1{
     margin-top: 50px;
+  }
+}
+@media all and (min-width: 735px) {
+  .container{
+    height: 800px;
   }
 }
 
