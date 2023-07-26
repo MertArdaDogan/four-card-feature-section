@@ -1,0 +1,86 @@
+:root{
+    --red           :hsl(0, 78%, 62%);
+    --cyan          :hsl(180, 62%, 55%);
+    --orange        :hsl(34, 97%, 64%);
+    --blue          :hsl(212, 86%, 64%);
+
+    --dark-blue     :hsl(234, 12%, 34%);
+    --grayish-blue  :hsl(229, 6%, 66%);
+    --light-gray    :hsl(0, 0%, 98%);
+
+    --poppins       :'Poppins', sans-serif;
+}
+/* 200 400 600 */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+  font-family: var(--poppins);
+}
+.head{
+  color: var(--dark-blue);
+}
+.head h1{
+  font-weight: 200;
+}
+.text-center{
+  text-align: center;
+}
+.weight{
+  font-weight: 600;
+}
+.head-text{
+  color: var(--grayish-blue);
+  font-weight: 400;
+  font-size: 13.5px;
+}
+.main{
+  max-width: 1440px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap; 	
+  justify-content: center;
+}
+.card{
+  margin: 10px;
+  border-radius: 5px;
+  color: var(--dark-blue);
+  height: 220px;
+  width: 330px;
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+
+}
+.card-body{
+  padding: 10px 30px;
+}
+.card p{
+  color: var(--grayish-blue);
+  font-size: 13px;
+  font-weight: 400;
+}
+.cyan{
+  border-top: 4px solid var(--cyan);
+}
+.red{
+  border-top: 4px solid var(--red);
+}
+.orange{
+  border-top: 4px solid var(--orange);
+}
+.blue{
+  border-top: 4px solid var(--blue);
+}
+img{
+  margin-left: 200px;
+}
+@media all and (max-width: 375px) {
+  .main{
+    height: 1000px;
+  }
+  h1{
+    margin-top: 50px;
+    font-size: 24px;
+  }
+  .head-text{
+    font-size: 15.2px;
+  }
+}
