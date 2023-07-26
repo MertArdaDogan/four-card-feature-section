@@ -36,6 +36,8 @@ body{
   color: var(--grayish-blue);
   font-weight: 400;
   font-size: 13.5px;
+  word-wrap:break-word;
+  white-space: normal;
 }
 .main{
   max-width: 1440px;
