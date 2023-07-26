@@ -77,7 +77,7 @@ body{
   border-top: 4px solid var(--blue);
 }
 img{
-  margin-left: 200px;
+  margin-left: 210px;
 }
 @media all and (max-width: 1065px) {
   .container{
