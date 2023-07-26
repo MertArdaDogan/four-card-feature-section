@@ -79,9 +79,9 @@ body{
 img{
   margin-left: 210px;
 }
-@media all and (max-width: 1065px) {
+@media all and (max-width: 1080px) {
   .container{
-    height: 1250px; 
+    height: 1260px; 
   }
   .center{
     transform: initial;
