@@ -16,6 +16,9 @@
 body{
   font-family: var(--poppins);
 }
+.container{
+  margin-top: 150px;
+}
 .head{
   color: var(--dark-blue);
 }
@@ -24,9 +27,6 @@ body{
 }
 .text-center{
   text-align: center;
-}
-.weight{
-  font-weight: 600;
 }
 .head-text{
   color: var(--grayish-blue);
@@ -56,6 +56,9 @@ body{
   color: var(--grayish-blue);
   font-size: 13px;
   font-weight: 400;
+}
+.center{
+  transform: translateY(50%);
 }
 .cyan{
   border-top: 4px solid var(--cyan);
