@@ -24,7 +24,6 @@ body{
 .head{
   position: relative;
   color: var(--dark-blue);
-  margin-bottom: 100px;
 }
 .head h1{
   font-weight: 200;
