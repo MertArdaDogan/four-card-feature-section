@@ -110,11 +110,11 @@ img{
 }
 @media all and (min-width: 735px) {
   .container{
-    height: 800px;
+    height: 750px;
   }
 }
-@media all and (max-width: 405px) {
+@media all and (max-width: 423px) {
   .main{
-    margin-top: 150px;
+    margin-top: 160px;
   }
 }
