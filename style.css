@@ -17,7 +17,7 @@ body{
   font-family: var(--poppins);
 }
 .container{
-  margin-top: 100px;
+  margin-top: 70px;
   height: 600px;
   position: relative;
 }
